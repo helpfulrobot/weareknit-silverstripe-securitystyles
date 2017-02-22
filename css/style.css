@@ -107,7 +107,7 @@ form {
 
 }
 label {
-	color: #FFF;
+	color: inherit;
 	padding-bottom: 5px;
 	text-align: left;
 }
