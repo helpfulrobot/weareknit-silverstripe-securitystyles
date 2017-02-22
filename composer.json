@@ -14,7 +14,8 @@
 		"issues": "https://github.com/WeAreKnit/silverstripe-securitystyles/issues"
 	},
 	"require": {
-		"silverstripe/framework": ">=3.0"
+		"silverstripe/framework": ">=3.0",
+		"tractorcow/silverstripe-colorpicker": "^3.0"
 	},
 	"extra": {
 		"installer-name": "silverstripe-securitystyles"
