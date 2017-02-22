@@ -9,13 +9,16 @@
 	$MetaTags(false)
 	<link rel="stylesheet" href="{$BaseURL}silverstripe-securitystyles/css/style.min.css" type="text/css" />
 	<link rel="shortcut icon" href="{$BaseURL}favicon.ico" />
+	<% if $SiteConfig.SecurityStylesCSS %>
+		<style type="text/css">$SiteConfig.SecurityStylesCSS</style>
+	<% end_if %>
 </head>
-<body class="$ClassName">
+<% include SecurityStylesBodyTagStart %>
 
 
 <div class="security-outer-wrapper">
 	<div class="security-inner-wrapper">
-		<div class="security-inner">
+		<% include SecurityStylesInnerTagStart %>
 
 			<% if $SiteConfig.SecurityStylesLogo %>
 				<div class="security-logo">$SiteConfig.SecurityStylesLogo</div>
