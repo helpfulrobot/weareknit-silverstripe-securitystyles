@@ -14,7 +14,7 @@
 
 	<div class="security-outer-wrapper">
 		<div class="security-inner-wrapper">
-			<div class="security-inner"<% if $SiteConfig.SecurityStylesBackgroundColor %> style="color: $SiteConfig.SecurityStylesBackgroundColor.CSSColor"<% end_if %>>
+			<div class="security-inner"<% if $SiteConfig.SecurityStylesTextColor %> style="color: $SiteConfig.SecurityStylesTextColor.CSSColor"<% end_if %>>
 
 				<% if $SiteConfig.SecurityStylesLogo %>
 					<div class="security-logo">$SiteConfig.SecurityStylesLogo</div>
