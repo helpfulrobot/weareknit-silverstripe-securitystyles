@@ -2,6 +2,16 @@
 
 Basic styling for Silverstripe security templates.
 
+## Installation
+
+### Via composer
+
+Install using composer using the command `composer require weareknit/silverstripe-securitystyles`.
+
+### Manually
+
+Download the zip from github and extract to a directory called `silverstripe-securitystyles` in the root of your site.
+
 ## Default appearance 
 
 ### Login 
@@ -20,7 +30,7 @@ Basic styling for Silverstripe security templates.
 
 ![Screenshot](https://github.com/WeAreKnit/silverstripe-securitystyles/blob/master/docs/screenshots/changepassword.png)
 
-## Optional settings
+## Configuration
 
 The following fields are added to the Settings tab of the CMS, each of which are optional...
 
