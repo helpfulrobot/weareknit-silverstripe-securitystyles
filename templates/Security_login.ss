@@ -10,11 +10,11 @@
 	<link rel="stylesheet" href="{$BaseURL}silverstripe-securitystyles/css/style.min.css" type="text/css" />
 	<link rel="shortcut icon" href="{$BaseURL}favicon.ico" />
 </head>
-<body class="$ClassName">
+<body class="$ClassName"<% if $SiteConfig.SecurityStylesBackgroundColor %> style="background-color: $SiteConfig.SecurityStylesBackgroundColor.CSSColor"<% end_if %>>
 
 	<div class="security-outer-wrapper">
 		<div class="security-inner-wrapper">
-			<div class="security-inner">
+			<div class="security-inner"<% if $SiteConfig.SecurityStylesBackgroundColor %> style="color: $SiteConfig.SecurityStylesBackgroundColor.CSSColor"<% end_if %>>
 
 				<% if $SiteConfig.SecurityStylesLogo %>
 					<div class="security-logo">$SiteConfig.SecurityStylesLogo</div>

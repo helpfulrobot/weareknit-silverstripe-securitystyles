@@ -3,7 +3,8 @@
 class SecurityStylesSiteConfig extends DataExtension {
 
 	private static $db = array(
-		"SecurityStylesBackgroundColor" => "Color"
+		"SecurityStylesBackgroundColor" => "Color",
+		"SecurityStylesTextColor" => "Color"
 	);
 
 	private static $has_one = array(
@@ -15,7 +16,8 @@ class SecurityStylesSiteConfig extends DataExtension {
 
 		$fields->addFieldsToTab("Root.SecurityStyles", array(
 			UploadField::create("SecurityStylesLogo"),
-			ColorField::create('SecurityStylesBackgroundColor', 'Background Color')
+			ColorField::create('SecurityStylesBackgroundColor', 'Background Color'),
+			ColorField::create('SecurityStylesTextColor', 'Text Color')
 		));
 
 	}
