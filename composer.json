@@ -1,0 +1,22 @@
+{
+	"name": "WeAreKnit/silverstripe-securitystyles",
+	"description": "Basic styling for security templates",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/WeAreKnit/silverstripe-securitystyles",
+	"keywords": ["silverstripe", "security", "styles", "templates"],
+	"authors": [
+		{
+			"name": "Matt Kibbler",
+			"email": "matt.kibbler@weareknit.co.uk"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/WeAreKnit/silverstripe-securitystyles/issues"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.0"
+	},
+	"extra": {
+		"installer-name": "silverstripe-securitystyles"
+	}
+}

@@ -1,0 +1,6 @@
+---
+name: securitystyles
+---
+SiteConfig:
+  extensions:
+    - SecurityStylesSiteConfig

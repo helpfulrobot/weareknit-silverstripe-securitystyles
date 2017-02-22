@@ -1,0 +1,137 @@
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: sans-serif; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+}
+
+button,
+input { /* 1 */
+	overflow: visible;
+}
+
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+
+body {
+	background-color: #263238;
+}
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+a {
+	background-color: transparent; /* 1 */
+	-webkit-text-decoration-skip: objects; /* 2 */
+}
+a:link {
+	color: #CE356C;
+}
+a:visited {
+	color: #C95882;
+}
+a:hover {
+	color: #FFF;
+	outline-width: 0;
+}
+a:active {
+	color: #CFCFCF;
+	outline-width: 0;
+}
+
+img {
+	border-style: none;
+}
+
+.security-outer-wrapper {
+	padding: 30px;
+	display: table;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.security-inner-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	max-width: 300px;
+}
+.security-logo {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.security-inner {
+	max-width: 400px;
+	padding: 30px;
+	width: 100%;
+	display: inline-block;
+	color: #FFF;
+}
+
+p {
+	color: inherit;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+
+form {
+
+}
+label {
+	color: #FFF;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	border: none;
+}
+
+input[type="submit"] {
+	border: none;
+	padding: 10px 15px;
+	background-color: #FFF;
+}
+
+.field {
+	margin-bottom: 20px;
+}
+		.field.text label {
+			display: block;
+		}
+
+
+
+
+
